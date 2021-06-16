@@ -1,0 +1,27 @@
+ [
+		{
+			  "name":"Credit Card Number",
+	           "patterns":"dddddddddddddddd,dddd dddd dddd dddd,dddd-dddd-dddd-dddd",
+				"contextKeywords":"amex,american express,americanexpress,Visa,mastercard,master card,mc,mastercards,master cards,diner's Club,diners club,dinersclub,discover card,discovercard,discover cards,carte blanche,carteblanche,credit card,cc#,bank card,bankcard,card number,card num,cardnumber,cardnumbers,card numbers,creditcard,credit cards,creditcards,ccn,debit card,debitcard,debit cards,debitcards,atm card,atmcard,atm cards,atmcards,carte bancaire,carte de crédit,carte de credit,numéro de carte,numero de carte,nº de la carte,nº de carte,kreditkarte,karte,karteninhaber,karteninhabers,kreditkarteninhaber,kreditkarteninstitut,kreditkartentyp,kartennr,kartennummer,kreditkartennummer,kreditkarten-nummer,carta di credito,carta credito,numero carta,numero della carta,numero di carta,cartão de crédito,cartão de credito,cartao de crédito,cartao de credito,cartão de débito,cartao de débito,cartão de debito,cartao de debito,débito automático,debito automatico,número do cartão,numero do cartão,número do cartao,numero do cartao,número de cartão,numero de cartão,número de cartao,numero de cartao",
+				"detectionMethods":"DIGITS_PATTERN,CONTEXT_KEYWORDS,CHECKSUM"
+		
+		},
+		
+		
+		
+		{
+			  "name":"U.S. Social Security Number",
+	           "patterns":"ddddddddd,ddd-dd-dddd,ddd dd dddd",
+				"contextKeywords": "Social Security,Social Security#,Soc Sec,SSN,SSNS,SSN#,SS#,SSID",
+		
+		        "detectionMethods":"DIGITS_PATTERN,CONTEXT_KEYWORDS"
+		}
+		
+		
+		
+		
+	]
+	
+	
+	
+ 
